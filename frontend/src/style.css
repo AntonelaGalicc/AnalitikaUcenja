@@ -1,0 +1,44 @@
+/* Reset i osnovni stilovi za html i body */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: transparent; /* uklanja pozadinu */
+  color: #000; /* tekst za svijetlu pozadinu */
+}
+
+/* Body koristi flex za centriranje sadržaja */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* puni viewport visinu */
+  width: 100vw;   /* puni viewport širinu */
+}
+
+/* Glavni kontejner aplikacije (#app) */
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Stil glavne kartice (.v-card) */
+.v-card {
+  background-color: #ffffff !important;
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
