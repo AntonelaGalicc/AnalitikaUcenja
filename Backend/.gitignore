@@ -1,0 +1,13 @@
+# Ignoriraj virtualno okruženje Python
+venv/
+
+# Ignoriraj cache i temp datoteke
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignoriraj IDE/Editor fajlove (ako koristiš VSCode)
+.vscode/
+
+# Ignoriraj ostale sistemske datoteke
+.DS_Store
